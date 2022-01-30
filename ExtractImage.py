@@ -5,7 +5,7 @@ path =  os.getcwd().replace('\'','\\') + '\\'
 Application = win32com.client.Dispatch("PowerPoint.Application")
 Presentation = Application.Presentations.Open(path + 'slides.pptx',WithWindow=False)
 
-for i in range(24):
+for i in range(25):
     try:
         print(i)
         Presentation.Slides[i].Export(path + '\\images\\image_' + str(i) + '.png', "PNG")
