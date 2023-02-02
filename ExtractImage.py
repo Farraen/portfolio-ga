@@ -72,9 +72,10 @@ thisdict = {
   61: "support_1",   
   62: "ga_1",
   63: "ga_2",
-  64: "svm_1",
-  65: "track_1",
-  66: "mvc_1",
+  64: "ga_3",
+  65: "svm_1",
+  66: "track_1",
+  67: "mvc_1",
 }
 
 
@@ -86,7 +87,7 @@ for i in range(slide_count):
 
 #Presentation.Slides[i].Export(path + '\\images\\image_' + str(i) + '.png', "PNG")
 
-Application.Quit()
+#Application.Quit()
 Presentation =  None
 Application = None
 
